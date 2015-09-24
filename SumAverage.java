@@ -1,8 +1,12 @@
 import java.util.Scanner;
+/**
+ * Author Timothy Gear
+ * This program calculates the sum and average of five separate numbers
+ * /
 public class SumAverage {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Prompts the user to input five separate numbers
 		double num1, num2, num3, num4, num5;
 		System.out.println("Enter five separate numbers to ");
 		System.out.println("calculate their sum and average.");
@@ -19,7 +23,7 @@ public class SumAverage {
 		System.out.println("Please enter a fifth number:");
 		num5 = keyboard.nextDouble();
 		keyboard.close();
-		
+		// Calculates the sum and average of the five numbers
 		double sum = num1 + num2 + num3 + num4 + num5;
 		double average = sum/5;
 		
