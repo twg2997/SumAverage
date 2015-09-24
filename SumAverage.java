@@ -1,8 +1,5 @@
 import java.util.Scanner;
-/**
- * Author Timothy Gear
- * This program calculates the sum and average of five separate numbers
- * /
+
 public class SumAverage {
 
 	public static void main(String[] args) {
